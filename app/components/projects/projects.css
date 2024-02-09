@@ -1,0 +1,21 @@
+.projects-container {
+  height: calc(100vh - 80px);
+  padding: 100px;
+}
+
+.projects-grid {
+  display: grid;
+  padding: 50px;
+  grid-template-columns: 100px 1fr;
+  grid-template-rows: 100px 100px 100px;
+}
+
+.project-pic {
+  align-self: center;
+  justify-self: center;
+}
+
+.projects-desc {
+  align-self: center;
+  justify-self: center;
+}

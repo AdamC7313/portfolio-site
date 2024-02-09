@@ -1,0 +1,22 @@
+.skills-container {
+  min-height: calc(100vh - 85px);
+  padding: 50px;
+}
+.skill-item {
+  background-color: rgb(203, 205, 209);
+  margin: 10px;
+  padding: 5px 8px;
+  border-radius: 10px;
+  color: rgb(14, 41, 84);
+  font-weight: bold;
+}
+.skill-subhead {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 20px;
+  color: rgb(203, 205, 209);
+}
+
+.skill-bucket {
+  padding: 50px;
+}

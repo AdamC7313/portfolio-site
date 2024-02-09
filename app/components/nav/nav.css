@@ -1,0 +1,71 @@
+.nav {
+  display: flex;
+  color: rgb(132, 167, 161);
+  padding-top: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  min-height: 80px;
+  background-color: rgb(14, 41, 84);
+  z-index: 100;
+  transition: all 0.3s ease-in-out;
+}
+
+.floating {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.25);
+  padding-top: 5px;
+}
+
+.pages {
+  display: flex;
+  position: absolute;
+  right: 30px;
+}
+
+.menu-item {
+  padding: 20px 25px 0px 25px;
+  transition: color 0.5s;
+}
+
+.last {
+  padding-right: 40px;
+}
+
+.menu-item:hover {
+  color: rgb(132, 167, 161, 0.75);
+  cursor: pointer;
+  transition: color, 0.5s;
+}
+
+.menu-item:active {
+  color: rgb(62, 78, 76);
+  transition: all, 0.25s;
+  cursor: pointer;
+}
+
+.resume-button {
+  border: 3px rgb(31, 110, 140) solid;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: 7px;
+  margin-right: 30px;
+  transition: all 0.5s;
+  box-shadow: 2px;
+}
+
+.resume-button:hover {
+  background-color: rgb(46, 138, 153);
+  transition: all, 0.5s;
+}
+
+.resume-button:active {
+  transform: scale(0.95);
+  transition: all, 0.25s;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

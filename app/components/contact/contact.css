@@ -1,0 +1,23 @@
+.contact-container {
+  min-height: calc(100vh - 80px);
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-me {
+  justify-self: center;
+  align-self: center;
+}
+
+.socials-container {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+
+.social-btn {
+  margin: 50px;
+}
