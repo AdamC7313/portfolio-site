@@ -1,6 +1,9 @@
 .skills-container {
   min-height: calc(100vh - 85px);
-  padding: 50px;
+  padding: 0px 30px 0px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .skill-item {
   background-color: rgb(203, 205, 209);
@@ -17,6 +20,6 @@
   color: rgb(203, 205, 209);
 }
 
-.skill-bucket {
-  padding: 50px;
+.skills-title {
+  margin-top: 0px;
 }
