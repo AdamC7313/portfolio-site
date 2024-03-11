@@ -59,7 +59,7 @@ const Projects = () => {
         </div>
         <div className='project-desc'>
           <p>
-          Of course, it&apos;s a weather app. With this project, I used an OpenWeatherAPI to fetch current weather data for a user inputted location. It will get the user&apos;s current location using Google's GeolocationAPI or use an inputted location and get the 5 day forecast.  I was also able to show some of my design abilities with this project.
+          Of course, it&apos;s a weather app. With this project, I used an OpenWeatherAPI to fetch current weather data for a user inputted location. It will get the user&apos;s current location using Googlez&apos;s GeolocationAPI or use an inputted location and get the 5 day forecast.  I was also able to show some of my design abilities with this project.
         </p>
         <div className='project-buttons'>
         <button className='project-button site' onClick={() => handleClick2()}>View Site</button>
