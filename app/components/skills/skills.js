@@ -13,13 +13,13 @@ const Skills = () => {
         <span className="skill-item">TypeScript</span>
         <span className="skill-item">React</span>
         <span className="skill-item">Redux</span>
-        <span className="skill-item">Next.js</span>
+        <span className="skill-item">Next</span>
       </div>
       <div className="skill-bucket">
         <h3 className="skill-subhead">back end</h3>
         <span className="skill-item">SQL</span>
-        <span className="skill-item">Node.js</span>
-        <span className="skill-item">Express.js</span>
+        <span className="skill-item">Nodejs</span>
+        <span className="skill-item">Express</span>
         <span className="skill-item">MongoDB</span>
         <span className="skill-item">Python</span>
       </div>

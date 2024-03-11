@@ -58,7 +58,7 @@ const Nav = () => {
         >
           contact
         </ScrollLink>
-        <button className="resume-button">Resume</button>
+        <button className="resume-button">resume</button>
       </div>
     </div>
   );

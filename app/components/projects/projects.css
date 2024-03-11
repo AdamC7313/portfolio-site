@@ -4,21 +4,70 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
-.projects-grid {
-  display: grid;
-  padding: 50px;
-  grid-template-columns: 100px 1fr;
-  grid-template-rows: 100px 100px 100px;
+.project-card {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+  width: 500px;
+  height: 280px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.project-pic {
-  align-self: center;
-  justify-self: center;
+.project-card:hover {
+  cursor: pointer;
+}
+
+.project-card.flip {
+  transform: rotateY(180deg);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.front,
+.back {
+  position: absolute;
+  backface-visibility: hidden;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.front {
+  transform: rotateY(0deg);
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.pic-1 {
+  background-image: url("gents-pic.png");
+  background-size: cover;
+  width: 500px;
+  height: 280px;
 }
 
 .projects-desc {
   align-self: center;
   justify-self: center;
+  padding: 30px;
+}
+
+.projects-grid {
+  display: grid;
+  width: 80%;
 }
