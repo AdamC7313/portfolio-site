@@ -59,7 +59,7 @@ const Projects = () => {
         </div>
         <div className='project-desc'>
           <p>
-        Gent&apos;s Classic Cuts Brochure Website is a showcase of my proficiency in web development using the core technologies of web development: JavaScript, CSS, and HTML. The website serves as an online brochure for a local barber shop, Gent&apos;s Classic Cuts, providing essential information about the services offered, the team, and contact details. The project is optimized for seamless viewing on tablets and phones. 
+          Of course, it&apos;s a weather app. With this project, I used an OpenWeatherAPI to fetch current weather data for a user inputted location. It will get the user&apos;s current location using Google's GeolocationAPI or use an inputted location and get the 5 day forecast.  I was also able to show some of my design abilities with this project.
         </p>
         <div className='project-buttons'>
         <button className='project-button site' onClick={() => handleClick2()}>View Site</button>
