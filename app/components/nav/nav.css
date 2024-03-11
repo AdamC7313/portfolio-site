@@ -9,6 +9,8 @@
   background-color: rgb(14, 41, 84);
   z-index: 100;
   transition: all 0.3s ease-in-out;
+  align-items: center;
+  justify-content: center;
 }
 
 .floating {

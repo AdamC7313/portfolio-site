@@ -15,6 +15,7 @@ const Nav = () => {
 
     window.addEventListener("scroll", handleScroll);
 
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -58,7 +59,6 @@ const Nav = () => {
         >
           contact
         </ScrollLink>
-        <button className="resume-button">resume</button>
       </div>
     </div>
   );
