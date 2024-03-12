@@ -6,7 +6,6 @@ import Image from "next/image";
 import github from "./github.png";
 import linkedin from "./linkedin.png";
 import email from "./email.png";
-import { set } from "mongoose";
 
 const Contact = () => {
 
