@@ -21,6 +21,7 @@ const Nav = () => {
     };
   }, []);
   return (
+    <>
     <div className={isScrolling ? "nav floating" : "nav"}>
       <div className="pages">
         <ScrollLink
@@ -61,6 +62,10 @@ const Nav = () => {
         </ScrollLink>
       </div>
     </div>
+    <div className={`scroll-for-more ${isScrolling ? 'scrolled' : ''}`}>
+        scroll for more
+      </div>
+    </>
   );
 };
 

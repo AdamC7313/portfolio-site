@@ -6,3 +6,33 @@
   padding-left: 50px;
   padding-right: 50px;
 }
+
+@media (max-width: 1175px) {
+  .title {
+    font-size: 2rem;
+  }
+  .subtitle {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .title,
+  .subtitle {
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .subtitle {
+    font-size: 1.25rem;
+  }
+
+  .head-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

@@ -6,20 +6,55 @@
   justify-content: center;
 }
 .skill-item {
+  display: inline-block;
   background-color: rgb(203, 205, 209);
   margin: 10px;
   padding: 5px 8px;
   border-radius: 10px;
   color: rgb(14, 41, 84);
   font-weight: bold;
+  white-space: nowrap;
 }
 .skill-subhead {
   font-size: 1.5rem;
   font-weight: bold;
-  padding-bottom: 20px;
   color: rgb(203, 205, 209);
 }
 
 .skills-title {
-  margin-top: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+@media (max-width: 840px) {
+  .skill-subhead {
+    text-align: center;
+  }
+
+  .skill-bucket {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 850px) {
+  .skills-title {
+    font-size: 2rem;
+  }
+
+  .skill-subhead {
+    font-size: 1.25rem;
+  }
+
+  .skill-item {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .skills-container {
+    padding: 0px 20px 0px 20px;
+  }
 }

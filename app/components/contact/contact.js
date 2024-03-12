@@ -1,12 +1,29 @@
-import React from "react";
+'use client';
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import "./contact.css";
 import Image from "next/image";
 import github from "./github.png";
 import linkedin from "./linkedin.png";
 import email from "./email.png";
+import { set } from "mongoose";
 
 const Contact = () => {
+
+  let [measures, setMeasures] = useState(60);
+
+  useEffect(() => {
+    let mobile = window.matchMedia("(max-width: 780px)");
+
+    if (mobile.matches) {
+      setMeasures(40);
+    } else {
+      setMeasures(60);
+    }
+  }, []);
+  
+
+    
   return (
     <div className="contact-container" id="contact">
       <h2 className="contact-me">contact</h2>
@@ -20,8 +37,8 @@ const Contact = () => {
             className="social-btn"
             alt="github"
             src={github}
-            width={60}
-            height={60}
+            width={measures}
+            height={measures}
           />
         </a>
         <a
@@ -33,8 +50,8 @@ const Contact = () => {
             className="social-btn"
             alt="linkedin"
             src={linkedin}
-            width={60}
-            height={60}
+            width={measures}
+            height={measures}
           />
         </a>
         <a href="mailto:AdamCruzDev@gmail.com">
@@ -42,8 +59,8 @@ const Contact = () => {
             className="social-btn"
             alt="email"
             src={email}
-            width={79}
-            height={60}
+            width={measures*1.317}
+            height={measures}
           />
         </a>
       </div>

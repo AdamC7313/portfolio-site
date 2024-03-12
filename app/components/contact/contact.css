@@ -14,10 +14,13 @@
 
 .socials-container {
   display: flex;
-  justify-self: center;
-  align-self: center;
+  justify-content: space-around;
+  align-items: space-around;
+  width: 400px;
 }
 
-.social-btn {
-  margin: 50px;
+@media (max-width: 780px) {
+  .socials-container {
+    width: 100%;
+  }
 }
