@@ -8,7 +8,7 @@ This is a portfolio website built using Next.js, a React framework. It showcases
 - **Dynamic Routing**: Next.js allows for easy implementation of dynamic routing, making navigation smooth and efficient.
 - **Project Showcase**: A dedicated section to showcase my projects, including descriptions, screenshots, and links to live demos or repositories.
 - **Skills & Experience**: Highlights my skills and experience, providing potential employers or clients with valuable insights into my capabilities.
-- **Contact Form**: Includes a contact form for visitors to get in touch with me directly.
+- **Contact Section**: Includes links to socials and email.
 
 ## Technologies Used
 
