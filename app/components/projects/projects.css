@@ -61,6 +61,20 @@
   height: 200px;
 }
 
+.pic-2 {
+  background-image: url("weather-pic.png");
+  background-size: cover;
+  width: 357px;
+  height: 200px;
+}
+
+.pic-3 {
+  background-image: url("product-list.png");
+  background-size: cover;
+  width: 357px;
+  height: 200px;
+}
+
 .projects-desc {
   align-self: center;
   justify-self: center;
@@ -89,13 +103,6 @@
   margin-bottom: 70px;
 }
 
-.pic-2 {
-  background-image: url("weather-pic.png");
-  background-size: cover;
-  width: 357px;
-  height: 200px;
-}
-
 .project-button {
   font-family: "Space Mono", monospace;
   font-size: 1rem;
@@ -118,4 +125,8 @@
 .project-button:active {
   transform: scale(0.95);
   transition: all, 0.25s;
+}
+
+.lang-clm {
+  margin-right: 50px;
 }
