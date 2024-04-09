@@ -72,6 +72,10 @@
   background-image: url("product-list.png");
 }
 
+.pic-4 {
+  background-image: url("fetching-looks.png");
+}
+
 .project-1-container {
   display: flex;
   justify-content: center;

@@ -34,6 +34,7 @@ const Skills = () => {
         <span className="skill-item">Unit Testing</span>
         <span className="skill-item">Mocha/Chai</span>
         <span className="skill-item">Jest</span>
+        <span className="skill-item">WordPress</span>
       </div>
     </div>
   );

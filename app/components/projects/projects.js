@@ -7,6 +7,7 @@ const Projects = () => {
   const [flip1, setFlip1] = useState(false);
   const [flip2, setFlip2] = useState(false);
   const [flip3, setFlip3] = useState(false);
+  const [flip4, setFlip4] = useState(false);
 
   function handleClick1() {
     var win = window.open('https://adamc7313.github.io/gents-brochure/', '_blank');
@@ -33,6 +34,11 @@ const Projects = () => {
     win.focus();
   }
 
+  function handleClick4() {
+    var win = window.open('https://fetchinglooks.com/', '_blank');
+    win.focus();
+  }
+
 
   return (
     <div className="projects-container" id="projects">
@@ -53,6 +59,23 @@ const Projects = () => {
         <div className='project-buttons'>
           <button className='project-button site' onClick={() => handleClick1()}>View Site</button>
           <button className='project-button code' onClick={() => handleClick1Code()}>View Code</button>
+        </div>
+        </div>
+        </div>
+        <div className='project'>
+      <div className="project-1-container" onMouseEnter={() => setFlip4(true)} onMouseLeave={() => setFlip4(false)}>
+        <div className={`project-card ${flip4 ? "flip" : ""}`} >
+        <div className="front pic pic-4">
+        </div>
+        <div className="back">WordPress</div>
+        </div>
+        </div>
+        <div className='project-desc'>
+          <p>
+        For this project, I collaborated with a local mobile dog grooming business to revamp their online presence. Their original site was hosted on WordPress.com, so I decided to showcase my ability to learn new technologies by building this site on WordPress, which I had not used in the past. The goal was to create a new, user friendly site and theme while optimizing it for mobile devices. By demonstrating adaptability and a knack for learning new technologies, I successfully redesigned the site to ensure seamless viewing on tablets and phones. This project shows my ability to innovate and enhance digital experiences.
+        </p>
+        <div className='project-buttons'>
+          <button className='project-button site' onClick={() => handleClick4()}>View Site</button>
         </div>
         </div>
         </div>

@@ -9,14 +9,13 @@ html {
   color: rgb(132, 167, 161);
   width: 100%;
   height: 100vh;
+  padding: 0px;
 }
 
-main {
-  height: 100vh;
-}
-
+main,
 body {
   height: 100vh;
+  padding: 0px;
 }
 
 h1 {
