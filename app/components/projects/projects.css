@@ -95,7 +95,8 @@
 
 .project {
   display: flex;
-  margin-bottom: 50px;
+  flex-direction: column;
+  padding-top: 30px;
 }
 
 .project-desc {
@@ -104,10 +105,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .project-byline {
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 
 .project-button {
@@ -119,11 +121,13 @@
   transition: all 0.5s;
   background-color: rgb(132, 167, 161);
   color: rgb(14, 41, 84);
+  margin-top: 14px;
 }
 
-.site {
-  margin-right: 20px;
+.code {
+  margin-left: 20px;
 }
+
 .project-button:hover {
   background-color: rgb(46, 138, 153);
   border-color: rgb(46, 138, 153);

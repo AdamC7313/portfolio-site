@@ -43,7 +43,7 @@ const Projects = () => {
   return (
     <div className="projects-container" id="projects">
       <h2 className='projects-title' style={{margin: "20px"}}>projects</h2>
-      <p className='project-byline'>Hover over/tap picture for languages and technologies used.</p>
+      <p className='project-byline'><strong>Hover over/tap picture for languages and technologies used.</strong></p>
       <div className='project'>
       <div className="project-1-container" onMouseEnter={() => setFlip1(true)} onMouseLeave={() => setFlip1(false)}>
         <div className={`project-card ${flip1 ? "flip" : ""}`} >
@@ -62,6 +62,7 @@ const Projects = () => {
         </div>
         </div>
         </div>
+        <h3>. . .</h3>
         <div className='project'>
       <div className="project-1-container" onMouseEnter={() => setFlip4(true)} onMouseLeave={() => setFlip4(false)}>
         <div className={`project-card ${flip4 ? "flip" : ""}`} >
@@ -79,6 +80,7 @@ const Projects = () => {
         </div>
         </div>
         </div>
+        <h3>. . .</h3>
         <div className='project'>
       <div className="project-1-container" onMouseEnter={() => setFlip2(true)} onMouseLeave={() => setFlip2(false)}>
         <div className={`project-card ${flip2 ? "flip" : ""}`} >
@@ -97,6 +99,7 @@ const Projects = () => {
         </div>
         </div>
         </div>
+        <h3>. . .</h3>
         <div className='project'>
       <div className="project-1-container" onMouseEnter={() => setFlip3(true)} onMouseLeave={() => setFlip3(false)}>
         <div className={`project-card ${flip3 ? "flip" : ""}`} >
