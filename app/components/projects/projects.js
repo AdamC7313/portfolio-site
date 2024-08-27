@@ -15,7 +15,7 @@ const Projects = () => {
   }
 
   function handleClick1Code() {
-    var win = window.open('https://github.com/AdamC7313/gents-brochure', '_blank');
+    var win = window.open('gents863.com', '_blank');
     win.focus();
   }
 

@@ -9,13 +9,19 @@ import { Analytics } from "@vercel/analytics/react";
 export default function Home() {
   return (
     <main>
-      <Analytics />
-      <Nav />
-      <Head />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact />
+      <div className="app-container">
+        <Analytics />
+        <div className="main-sticky-container">
+          <Head />
+          <Nav />
+        </div>
+        <div className="main-info-container">
+          <About />
+          <Projects />
+          <Skills />
+          <Contact />
+        </div>
+      </div>
     </main>
   );
 }

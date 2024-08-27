@@ -32,18 +32,33 @@ p {
   color: rgb(31, 110, 140);
 }
 
+.main-sticky-container {
+  width: 50%;
+}
+
+.main-info-container {
+  width: 50%;
+}
+
+.app-container {
+  display: flex;
+}
+
 ::-webkit-scrollbar {
-  width: 12px; /* Width of the scrollbar */
+  width: 12px;
+  /* Width of the scrollbar */
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgb(14, 41, 84, 0); /* Color of the track */
+  background: rgb(14, 41, 84, 0);
+  /* Color of the track */
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(46, 138, 153); /* Color of the scrollbar handle */
+  background: rgb(46, 138, 153);
+  /* Color of the scrollbar handle */
   border-radius: 15px;
   transition: all 0.5s;
 }
