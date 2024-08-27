@@ -11,13 +11,49 @@
 .pages {
   display: flex;
   flex-direction: column;
-  width: 700px;
-  align-items: center;
   justify-content: space-between;
+  height: 200px;
+  margin-top: 20px;
+  max-width: 150px;
 }
 
 .menu-item {
   transition: color 0.5s;
+  color: rgb(132, 167, 161, 0.5)
+}
+
+.active-menu-item {
+  color: rgb(132, 167, 161, 0.75);
+  cursor: pointer;
+  transition: color, 0.5s;
+}
+
+.active-menu-item::before {
+  content: ""; 
+  display: inline-block;
+  width: 40px;
+  height: 1px;
+  background-color: rgb(132, 167, 161);
+  margin-right: 10px;
+  vertical-align: middle;
+  transition: all 0.5s;
+}
+
+.menu-item::before {
+  content: ""; 
+  display: inline-block;
+  width: 20px;
+  height: 1px;
+  background-color: rgb(132, 167, 161, 0.5);
+  margin-right: 10px;
+  vertical-align: middle;
+  transition: all 0.5s;
+}
+
+.menu-item:hover::before {
+  width: 40px;
+  background-color: rgb(132, 167, 161);
+  transition: all 0.5s;
 }
 
 .menu-item:hover {
