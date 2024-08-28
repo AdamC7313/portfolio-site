@@ -6,47 +6,29 @@ import headshot from "./headshot.png";
 const about = () => {
   return (
     <div className="about-container" id="about">
-      <h2 className="about-title">about me</h2>
       <div className="about-words-container">
-        <p>
-          Science and music have always been my passion. Both bring a sense of
-          challenge and need for practice. I&apos;ve always been pushed to be
-          the best I can be. So naturally, I went to college (Florida Southern)
-          to get a degree in biology and pursue medical school. <br />
-          <br />I quickly found out that this path was not mine. After my
-          bachelor&apos;s, I went to the University of South Florida for a
-          master&apos;s in medical science. Realizing the exponential growth of
-          the clinical research industry, I got a job as a coordinator at a
-          local site. <br />
-          <br />
-          Spending a year as a coordinator taught me about clinical research and
-          prepared me for my next job as a vendor specialist for a large network
-          of sites. I found one thing to be my favorite part about both of these
-          jobs: I created an excel app that helped me do my job better. I
-          decided to begin teaching myself how to code using any resources I
-          could find, creating projects and websites on my own. <br />
-          <br />
+        <p className="about-words">
+        Science and music have always been my passion. Both bring a sense of challenge and need for practice.
+        My Bachelor&apos;s degree is in Biology, while my Master&apos;s degree is in Medical
+        Science. After earning my degrees in healthcare, I decided to pursue a career in clinical
+        research. I found the best parts of my job were problem solving, 
+        data analysis, and creating
+        tools like Excel CRMS and tracking systems. After a year in clinical research, I decided to begin
+        learning programming. <br />
+        <br />
+        After some self study, I decided to enroll in a coding bootcamp, where I learned all the skills
+        for successful web development. After graduation, I began working as a front end developer for Greek
+        Chapter, designing their application from scratch and adding geolocation features, such as the 
+        ability to create and edit study location radiuses.<br />
+        <br />
+        I am now working as a developer with DashProphet, a data analysis program focused on 
+        creating useful and easy to understand data visualizations.<br />
+        <br />
+        When I&apos;m not at the computer, I&apos;m usually playing piano and guitar, hanging out with 
+        my wife and dog, or playing video games. I&apos;m always looking for new challenges and
+        opportunities to learn and grow.
+
         </p>
-        <div className="last-line">
-          <p className="about-last">
-            Since then, I have graduated from an intense 6 month bootcamp
-            learning all the skills needed to become a software engineer. Now my
-            goal is to help others by building them tools to help them do their
-            jobs easier. My background is mainly scientific, specifically in lab
-            and clinical research work, however, I am a quick learner and easy
-            to work with. I will work to bring your ideas to life exactly how
-            you envision them.
-          </p>
-          <div className="image-container">
-            <Image
-              className="headshot"
-              src={headshot}
-              width={150}
-              height={150}
-              alt="headshot"
-            ></Image>
-          </div>
-        </div>
       </div>
     </div>
   );

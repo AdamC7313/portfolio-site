@@ -10,6 +10,7 @@ html {
   width: 100%;
   height: 100vh;
   padding: 0px;
+  line-height: 1.6;
 }
 
 main,
@@ -34,7 +35,7 @@ p {
 
 .main-sticky-container {
   width: 40%;
-  padding-top: 100px;
+  padding-top: 96px;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -49,7 +50,8 @@ p {
 
 .app-container {
   display: flex;
-  width: 1280px;
+  max-width: 1280px;
+  padding: 0px 96px;
   height: 100%;
   margin: auto;
 }
