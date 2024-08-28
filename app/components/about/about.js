@@ -13,7 +13,7 @@ const about = () => {
         Science. After earning my degrees in healthcare, I decided to pursue a career in clinical
         research. I found the best parts of my job were problem solving, 
         data analysis, and creating
-        tools like Excel CRMS and tracking systems. After a year in clinical research, I decided to begin
+        tools like Excel CRMs and tracking systems. After a year in clinical research, I decided to begin
         learning programming. <br />
         <br />
         After some self study, I decided to enroll in a coding bootcamp, where I learned all the skills

@@ -4,7 +4,7 @@ import "./skills.css";
 const Skills = () => {
   return (
     <div className="skills-container" id="skills">
-      <h3 className="skill-subhead">frontend</h3>
+      <h3 className="skill-subhead">front end</h3>
       <div className="skill-bucket">
         <span className="skill-item">HTML5</span>
         <span className="skill-item">CSS3</span>
@@ -14,7 +14,7 @@ const Skills = () => {
         <span className="skill-item">Redux</span>
         <span className="skill-item">Next.js</span>
       </div>
-      <h3 className="skill-subhead">backend</h3>
+      <h3 className="skill-subhead">back end</h3>
       <div className="skill-bucket">
         <span className="skill-item">SQL</span>
         <span className="skill-item">NoSQL</span>
