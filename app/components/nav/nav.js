@@ -4,7 +4,7 @@ import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import "./nav.css";
 
 const Nav = () => {
-  const [isScrolling, setIsScrolling] = useState("");
+  const [isScrolling, setIsScrolling] = useState("about");
 
   useEffect(() => {
     const handleScroll = () => {
