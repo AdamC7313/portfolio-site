@@ -42,9 +42,9 @@ const Projects = () => {
 
   return (
     <div className="projects-container" id="projects">
-      <h2 className='projects-title' style={{margin: "20px"}}>projects</h2>
-      <p className='project-byline'><strong>Hover over/tap picture for languages and technologies used.</strong></p>
+      <p className='project-byline'>Hover over/tap picture for languages and technologies used.</p>
       <div className='project'>
+        <div className='inner-project-container'>
       <div className="project-1-container" onMouseEnter={() => setFlip1(true)} onMouseLeave={() => setFlip1(false)}>
         <div className={`project-card ${flip1 ? "flip" : ""}`} >
         <div className="front pic pic-1">
@@ -53,18 +53,21 @@ const Projects = () => {
         </div>
         </div>
         <div className='project-desc'>
-          <p>
-        Gent&apos;s Classic Cuts Brochure Website is a showcase of my proficiency in web development using the core technologies of web development: JavaScript, CSS, and HTML. The website serves as an online brochure for a local barber shop, Gent&apos;s Classic Cuts, providing essential information about the services offered, the team, and contact details. The project is optimized for seamless viewing on tablets and phones. 
+        <p style={{ fontSize: "0.85rem", opacity: 0.75}}>
+        My first real world project, Gent&apos;s Classic Cuts is a brochure website for a 
+        local barbershop. It showcases my skills in the core technologies of web development:
+        JavaScript, CSS, and HTML. No frameworks or libraries, just plain code.
         </p>
+        </div>
+        </div>
         <div className='project-buttons'>
           <button className='project-button site' onClick={() => handleClick1()}>View Site</button>
           <button className='project-button code' onClick={() => handleClick1Code()}>View Code</button>
         </div>
         </div>
-        </div>
-        <h3>. . .</h3>
         <div className='project'>
-      <div className="project-1-container" onMouseEnter={() => setFlip4(true)} onMouseLeave={() => setFlip4(false)}>
+          <div className='inner-project-container'>
+        <div className="project-1-container" onMouseEnter={() => setFlip4(true)} onMouseLeave={() => setFlip4(false)}>
         <div className={`project-card ${flip4 ? "flip" : ""}`} >
         <div className="front pic pic-4">
         </div>
@@ -72,17 +75,20 @@ const Projects = () => {
         </div>
         </div>
         <div className='project-desc'>
-          <p>
-        For this project, I collaborated with a local mobile dog grooming business to revamp their online presence. Their original site was hosted on WordPress.com, so I decided to showcase my ability to learn new technologies by building this site on WordPress, which I had not used in the past. The goal was to create a new, user friendly site and theme while optimizing it for mobile devices. By demonstrating adaptability and a knack for learning new technologies, I successfully redesigned the site to ensure seamless viewing on tablets and phones. This project shows my ability to innovate and enhance digital experiences.
+        <p style={{ fontSize: "0.85rem", opacity: 0.75}}>
+        Fetching Looks was my second real world project. To show my ability to learn new technologies,
+        I built this site on WordPress, which I had not used in the past. The goal was to create a new, 
+        user friendly site and theme while optimizing it for mobile devices. 
         </p>
+        </div>
+        </div>
         <div className='project-buttons'>
           <button className='project-button site' onClick={() => handleClick4()}>View Site</button>
         </div>
         </div>
-        </div>
-        <h3>. . .</h3>
         <div className='project'>
-      <div className="project-1-container" onMouseEnter={() => setFlip2(true)} onMouseLeave={() => setFlip2(false)}>
+          <div className='inner-project-container'>
+          <div className="project-1-container" onMouseEnter={() => setFlip2(true)} onMouseLeave={() => setFlip2(false)}>
         <div className={`project-card ${flip2 ? "flip" : ""}`} >
         <div className="front pic pic-2">
         </div>
@@ -90,18 +96,21 @@ const Projects = () => {
         </div>
         </div>
         <div className='project-desc'>
-          <p>
-          Of course, it&apos;s a weather app. With this project, I used an OpenWeatherAPI to fetch current weather data for a user inputted location. It will get the user&apos;s current location using Googlez&apos;s GeolocationAPI or use an inputted location and get the 5 day forecast.  I was also able to show some of my design abilities with this project.
+        <p style={{ fontSize: "0.85rem", opacity: 0.75}}>
+        I built here a weather app that connects directly to OpenWeatherAPI to fetch
+        current weatcher data and display it in a user friendly way. I also used
+        Google&apos;s GeolocationAPI to get the user&apos;s current location.
         </p>
+        </div>
+        </div>
         <div className='project-buttons'>
         <button className='project-button site' onClick={() => handleClick2()}>View Site</button>
         <button className='project-button code' onClick={() => handleClick2Code()}>View Code</button>
         </div>
         </div>
-        </div>
-        <h3>. . .</h3>
         <div className='project'>
-      <div className="project-1-container" onMouseEnter={() => setFlip3(true)} onMouseLeave={() => setFlip3(false)}>
+          <div className='inner-project-container'>
+          <div className="project-1-container" onMouseEnter={() => setFlip3(true)} onMouseLeave={() => setFlip3(false)}>
         <div className={`project-card ${flip3 ? "flip" : ""}`} >
         <div className="front pic pic-3">
         </div>
@@ -116,12 +125,16 @@ const Projects = () => {
         </div>
         </div>
         <div className='project-desc'>
-          <p>
-          This project is a simple product list app, which fetches data from a backend server I created and shows products on the frontend. It allows for filtering, sorting and searching; showcasing my proficiency in full stack development. For this project, I created my own API, and used it to fetch data for the frontend. I tested for edge cases and handled errors while also creating a user-friendly interface. Each filter and sort option is dynamic and updates the product list in real time, and are able to be used together.
+        <p style={{ fontSize: "0.85rem", opacity: 0.75}}>
+        This is a simple product list app that puts together all the languages I learned
+        during my fellowship at Parsity, creating a my first full stack project. I created
+        my own API and connected it to the front end of the application. I also created multiple
+        filters and sorting options for the user to interact with.
         </p>
+        </div>
+        </div>
         <div className='project-buttons'>
         <button className='project-button site' onClick={() => handleClick3()}>View Code</button>
-        </div>
         </div>
         </div>
     </div>

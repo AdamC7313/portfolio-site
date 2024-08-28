@@ -5,7 +5,7 @@ import Projects from "./components/projects/projects";
 import Skills from "./components/skills/skills";
 import Contact from "./components/contact/contact";
 import { Analytics } from "@vercel/analytics/react";
-import Experience from "./components/experience/Experience";
+import Experience from "./components/experience/experience";
 
 export default function Home() {
   return (
