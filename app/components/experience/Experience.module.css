@@ -41,3 +41,20 @@
     font-weight: bold;
 }
 
+@media (max-width: 550px) {
+    .experienceContainer {
+        flex-direction: column;
+    }
+
+    .experienceDate {
+        width: 100%;
+        justify-content: left;
+        margin-right: 0px;
+        margin-bottom: 10px;
+
+    }
+
+    .experienceDetails {
+        width: 100%;
+    }
+}

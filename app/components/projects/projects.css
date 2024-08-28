@@ -179,11 +179,19 @@
 
   .project-byline {
     font-size: 0.75rem;
-    text-align: center;
   }
 
   .project-desc {
     text-align: center;
+  }
+}
+
+@media (max-width: 750px) {
+  .inner-project-container {
+    flex-direction: column;
+  }
+  .project-desc {
+    padding: 10px 0px;
   }
 }
 

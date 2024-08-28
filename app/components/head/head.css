@@ -18,3 +18,18 @@
   font-size: 0.8rem;
   font-weight: normal;
 }
+
+@media only screen and (max-width: 1375px) {
+  .me-description {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 1075px) {
+  .title {
+    font-size: 3rem;
+  }
+  .subtitle {
+    font-size: 1.5rem;
+  }
+}
