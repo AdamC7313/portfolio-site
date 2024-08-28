@@ -38,7 +38,8 @@ p {
   position: fixed;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  justify-content: space-between;
+  height: calc(100vh - 200px);
 }
 
 .main-info-container {

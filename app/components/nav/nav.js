@@ -16,8 +16,6 @@ const Nav = () => {
         setIsScrolling("projects");
       } else if (scrollPosition >= 3800 && scrollPosition < 4570) {
         setIsScrolling("skills");
-      } else if (scrollPosition >= 4570) {
-        setIsScrolling("contact");
       }
     };
 
@@ -41,6 +39,14 @@ const Nav = () => {
             about
           </ScrollLink>
           <ScrollLink
+            to="experience"
+            smooth={true}
+            duration={500}
+            className={isScrolling === "experience" ? "active-menu-item" : "menu-item last"}
+          >
+            experience
+          </ScrollLink>
+          <ScrollLink
             to="projects"
             smooth={true}
             duration={500}
@@ -55,14 +61,6 @@ const Nav = () => {
             className={isScrolling === "skills" ? "active-menu-item" : "menu-item"}
           >
             skills
-          </ScrollLink>
-          <ScrollLink
-            to="contact"
-            smooth={true}
-            duration={500}
-            className={isScrolling === "contact" ? "active-menu-item" : "menu-item last"}
-          >
-            contact
           </ScrollLink>
         </div>
       </div>

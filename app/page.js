@@ -12,14 +12,16 @@ export default function Home() {
       <div className="app-container">
         <Analytics />
         <div className="main-sticky-container">
+          <div className="head-and-nav">
           <Head />
           <Nav />
+          </div>
+          <Contact />
         </div>
         <div className="main-info-container">
           <About />
           <Projects />
           <Skills />
-          <Contact />
         </div>
       </div>
     </main>
