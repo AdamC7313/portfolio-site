@@ -15,9 +15,9 @@ const Contact = () => {
     let mobile = window.matchMedia("(max-width: 780px)");
 
     if (mobile.matches) {
-      setMeasures(40);
+      setMeasures(20);
     } else {
-      setMeasures(60);
+      setMeasures(30);
     }
   }, []);
   
@@ -25,7 +25,6 @@ const Contact = () => {
     
   return (
     <div className="contact-container" id="contact">
-      <h2 className="contact-me">contact</h2>
       <div className="socials-container">
         <a
           target="_blank"

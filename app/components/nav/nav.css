@@ -1,15 +1,6 @@
 .nav {
   display: flex;
-  color: rgb(132, 167, 161);
-  position: fixed;
-  top: 0;
-  width: 100%;
-  min-height: 80px;
-  background-color: rgb(14, 41, 84);
-  z-index: 100;
-  transition: all 0.3s ease-in-out;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .floating {
@@ -19,17 +10,50 @@
 
 .pages {
   display: flex;
-  width: 700px;
-  align-items: center;
+  flex-direction: column;
   justify-content: space-between;
+  height: 200px;
+  margin-top: 20px;
+  max-width: 150px;
 }
 
 .menu-item {
   transition: color 0.5s;
+  color: rgb(132, 167, 161, 0.5)
 }
 
-.last {
-  padding-right: 40px;
+.active-menu-item {
+  color: rgb(132, 167, 161, 0.75);
+  cursor: pointer;
+  transition: color, 0.5s;
+}
+
+.active-menu-item::before {
+  content: ""; 
+  display: inline-block;
+  width: 40px;
+  height: 1px;
+  background-color: rgb(132, 167, 161);
+  margin-right: 10px;
+  vertical-align: middle;
+  transition: all 0.5s;
+}
+
+.menu-item::before {
+  content: ""; 
+  display: inline-block;
+  width: 20px;
+  height: 1px;
+  background-color: rgb(132, 167, 161, 0.5);
+  margin-right: 10px;
+  vertical-align: middle;
+  transition: all 0.5s;
+}
+
+.menu-item:hover::before {
+  width: 40px;
+  background-color: rgb(132, 167, 161);
+  transition: all 0.5s;
 }
 
 .menu-item:hover {
@@ -65,12 +89,6 @@
 .resume-button:active {
   transform: scale(0.95);
   transition: all, 0.25s;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 
 .scroll-for-more {

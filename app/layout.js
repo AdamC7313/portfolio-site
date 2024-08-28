@@ -1,7 +1,7 @@
-import { Space_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-const spaceMono = Space_Mono({ subsets: ["latin"], weight: "400" });
+const inter = Inter({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
   title: "Portfolio | Adam C.",
@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={spaceMono.className}>{children}</body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }

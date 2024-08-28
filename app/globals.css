@@ -10,6 +10,7 @@ html {
   width: 100%;
   height: 100vh;
   padding: 0px;
+  line-height: 1.6;
 }
 
 main,
@@ -32,18 +33,43 @@ p {
   color: rgb(31, 110, 140);
 }
 
+.main-sticky-container {
+  width: 40%;
+  padding-top: 96px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100vh - 200px);
+}
+
+.main-info-container {
+  width: 50%;
+  padding-left: 640px;
+}
+
+.app-container {
+  display: flex;
+  max-width: 1280px;
+  height: 100%;
+  margin: auto;
+}
+
 ::-webkit-scrollbar {
-  width: 12px; /* Width of the scrollbar */
+  width: 12px;
+  /* Width of the scrollbar */
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgb(14, 41, 84, 0); /* Color of the track */
+  background: rgb(14, 41, 84, 0);
+  /* Color of the track */
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(46, 138, 153); /* Color of the scrollbar handle */
+  background: rgb(46, 138, 153);
+  /* Color of the scrollbar handle */
   border-radius: 15px;
   transition: all 0.5s;
 }

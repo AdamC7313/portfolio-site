@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.experienceContainer {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.experienceDate {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    padding-top: 2px;
+}
+
+.experienceTitle {
+    margin-bottom: 10px;
+}
+
+.experienceDetails {
+    width: 70%;
+}
+
+.experienceTech {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.individualTech {
+    display: flex;
+    background-color: rgb(46, 138, 153);
+    margin-right: 10px;
+    padding: 3px 8px;
+    border-radius: 15px;
+    color: rgb(14, 41, 84);
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+@media (max-width: 550px) {
+    .experienceContainer {
+        flex-direction: column;
+    }
+
+    .experienceDate {
+        width: 100%;
+        justify-content: left;
+        margin-right: 0px;
+        margin-bottom: 10px;
+
+    }
+
+    .experienceDetails {
+        width: 100%;
+    }
+}
