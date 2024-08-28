@@ -14,8 +14,10 @@ const Nav = () => {
         setIsScrolling("about");
       } else if (scrollPosition >= 300 && scrollPosition < 1200) {
         setIsScrolling("experience");
-      } else if (scrollPosition >= 1200 && scrollPosition < 4570) {
+      } else if (scrollPosition >= 1200 && scrollPosition < 2540) {
         setIsScrolling("projects");
+      } else if (scrollPosition >= 2540) {
+        setIsScrolling("skills");
       }
     };
 
