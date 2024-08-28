@@ -4,7 +4,6 @@ import "./skills.css";
 const Skills = () => {
   return (
     <div className="skills-container" id="skills">
-      <h2 className="skills-title">skills</h2>
       <h3 className="skill-subhead">frontend</h3>
       <div className="skill-bucket">
         <span className="skill-item">HTML5</span>
