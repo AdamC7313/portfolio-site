@@ -10,12 +10,12 @@ const Nav = () => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       console.log(scrollPosition);
-      if (scrollPosition < 900) {
+      if (scrollPosition < 300) {
         setIsScrolling("about");
-      } else if (scrollPosition >= 900 && scrollPosition < 3800) {
+      } else if (scrollPosition >= 300 && scrollPosition < 1200) {
+        setIsScrolling("experience");
+      } else if (scrollPosition >= 1200 && scrollPosition < 4570) {
         setIsScrolling("projects");
-      } else if (scrollPosition >= 3800 && scrollPosition < 4570) {
-        setIsScrolling("skills");
       }
     };
 
