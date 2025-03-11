@@ -46,6 +46,7 @@ p {
 @media only screen and (max-width: 1075px) {
   .about-words-container {
     font-size: 0.8rem;
+    align-items: center;
   }
 
   .headshot {

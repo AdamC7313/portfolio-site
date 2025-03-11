@@ -44,6 +44,8 @@
 @media (max-width: 550px) {
     .experienceContainer {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .experienceDate {

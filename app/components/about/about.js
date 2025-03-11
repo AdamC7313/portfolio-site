@@ -1,7 +1,5 @@
 import React from "react";
 import "./about.css";
-import Image from "next/image";
-import headshot from "./headshot.png";
 
 const about = () => {
   return (
